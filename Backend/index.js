@@ -6,7 +6,7 @@ import bookRoutes from './routes/book.route.js'
 dotenv.config();
 
 const app = express();
-const allowedOrigins = ['https://book-nest-sand.vercel.app/','http://localhost:5173'];
+const allowedOrigins = ['https://book-nest-sand.vercel.app','http://localhost:5173'];
 
 app.use(cors({
   origin: function (origin, callback) {
